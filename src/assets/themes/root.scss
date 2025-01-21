@@ -1,0 +1,38 @@
+:root {
+  --color-success: #52c41a;
+  --color-primary: #0958d9;
+  --color-warning: #faad14;
+  --color-danger: #f5222d;
+  --color-default: #9ca3af;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-mask: rgba(200,200,200,.4);
+
+  --color-default-l1: #f0f0f0;
+
+  --color-link-default: #0958d9;
+  --color-link-hover: #3b82f6;
+  --color-border-default: #d9d9d9;
+}
+
+.color-success {
+  color: var(--color-success);
+}
+.color-primary {
+  color: var(--color-primary);
+}
+.color-warning {
+  color: var(--color-warning);
+}
+.color-danger {
+  color: var(--color-danger);
+}
+.color-default {
+  color: var(--color-default);
+}
+.bgc-default-l1 {
+  background-color: var(--color-default-l1);
+}
+.bgc-mask {
+  background-color: #c8d1da;
+}
